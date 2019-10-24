@@ -51,7 +51,7 @@ def main(funcList, dataname, support, confidence):
 
 
 # funcList = ["Apriori","FP_Growth","Mlx"]
-funcList = ["Apriori", "Mlx"]
+funcList = ["Apriori"]
 # main(funcList,"data.ntrans_1.nitems_0.1.txt",support = 0.7)
 # main(funcList,"data.ntrans_10.nitems_0.1.txt",support = 0.1)
 main(funcList, "data.ntrans_0.1.nitems_0.01.txt", support=0.8, confidence=0.7)
